@@ -42,9 +42,8 @@ function addTaskToArray(taskText) {
      ArrayOfTasks.push(task);
      addElesToPageFrom(ArrayOfTasks);
      addTasksToLocalStoragefrom(ArrayOfTasks);
-
-     // console.log(ArrayOfTasks);
-     // console.log(JSON.stringify(ArrayOfTasks));
+      // console.log(ArrayOfTasks);
+      // console.log(JSON.stringify(ArrayOfTasks));
 }
 
 function addElesToPageFrom(arroftasks) {
